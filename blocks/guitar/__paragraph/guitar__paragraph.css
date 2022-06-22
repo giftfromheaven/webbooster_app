@@ -1,0 +1,27 @@
+.guitar__paragraph {
+  margin: 0;
+  font-size: 18px;
+  line-height: 1.63;
+}
+
+.guitar__paragraph:nth-child(2) {
+  margin-top: 26px;
+}
+
+@media screen and (max-width: 1279px) {
+  .guitar__paragraph {
+    font-size: 18px;
+  }
+}
+
+@media screen and (max-width: 1023px) {
+  .guitar__paragraph {
+    font-size: 16px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .guitar__paragraph {
+    padding: 0 16px;
+  }
+}

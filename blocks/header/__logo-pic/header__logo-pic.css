@@ -1,0 +1,18 @@
+.header__logo-pic {
+  object-fit: cover;
+  width: 60px;
+  height: 60px;
+  transition: opacity 0.4s ease;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 767px) {
+  .header__logo-pic {
+    width: 37px;
+    height: 36px;
+  }
+}
+
+.header__logo-pic:hover {
+  opacity: 0.6;
+}

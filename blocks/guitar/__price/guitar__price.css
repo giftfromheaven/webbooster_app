@@ -1,0 +1,19 @@
+.guitar__price {
+  padding-left: 16px;
+}
+
+@media screen and (min-width: 768px) {
+  .guitar__price {
+    padding-left: 0px;
+    margin: 0;
+    align-self: end;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .guitar__price {
+    padding: 0 16px;
+    margin: 0;
+    align-self: end;
+  }
+}

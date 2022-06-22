@@ -1,0 +1,24 @@
+@import url('../vendor/normalize.css');
+@import url('../blocks/root/root.css');
+@import url('../fonts/fonts.css');
+
+/* header */
+@import url('../blocks/header/header.css');
+@import url('../blocks/header/__logo-pic/header__logo-pic.css');
+
+/* lead */
+@import url('../blocks/lead/lead.css');
+@import url('../blocks/lead/__container/lead__container.css');
+@import url('../blocks/lead/__title/lead__title.css');
+@import url('../blocks/lead/__subtitle/lead__subtitle.css');
+
+/* guitars */
+@import url('../blocks/guitars/guitars.css');
+
+/* guitar */
+@import url('../blocks/guitar/guitar.css');
+@import url('../blocks/guitar/__title/guitar__title.css');
+@import url('../blocks/guitar/__price/guitar__price.css');
+@import url('../blocks/guitar/__price_heading/guitar__price_heading.css');
+@import url('../blocks/guitar/__image/guitar__image.css');
+@import url('../blocks/guitar/__paragraph/guitar__paragraph.css');

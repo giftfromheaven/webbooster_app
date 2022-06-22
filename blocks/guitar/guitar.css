@@ -1,0 +1,33 @@
+.guitar {
+  display: grid;
+  grid-template-columns: 460px 1fr;
+  grid-template-rows: 1fr;
+  grid-gap: 48px 40px;
+  margin-bottom: 80px;
+}
+
+.guitar:last-child {
+  margin-bottom: 0;
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  .guitar {
+    display: grid;
+    grid-template-columns: 340px 1fr;
+    column-gap: 28px;
+    row-gap: 48px;
+  }
+
+  .guitar:last-child {
+    margin: 0;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .guitar {
+    padding: 24px 0;
+    grid-template-columns: minmax(288px, 1fr);
+    grid-gap: 32px;
+    margin: 0;
+  }
+}
