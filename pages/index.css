@@ -22,3 +22,6 @@
 @import url('../blocks/guitar/__price_heading/guitar__price_heading.css');
 @import url('../blocks/guitar/__image/guitar__image.css');
 @import url('../blocks/guitar/__paragraph/guitar__paragraph.css');
+
+/* button */
+@import url('../blocks/button/button.css');
