@@ -1,0 +1,14 @@
+.modal__close {
+  color: #fff;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+  transition: opacity 0.4s ease;
+}
+
+.modal__close:hover,
+.modal__close:focus {
+  opacity: 0.6;
+  text-decoration: none;
+  cursor: pointer;
+}

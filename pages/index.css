@@ -25,3 +25,8 @@
 
 /* button */
 @import url('../blocks/button/button.css');
+
+/* modal */
+@import url('../blocks/modal/modal.css');
+@import url('../blocks/modal/__content/modal__content.css');
+@import url('../blocks/modal/__close/modal__close.css');
